@@ -1,0 +1,35 @@
+{
+  "fullScreen": {
+    "enable": true,
+    "zIndex": -2
+  },
+  "particles": {
+    "color": {
+      "value": ["#222", "#333", "#072e07", "#300"]
+    },
+    "number": {
+      "value": 200
+    },
+    "move": {
+      "enable": true,
+      "speed": 2
+    },
+    "opacity": {
+      "value": 1
+    },
+    "shape": {
+      "type": ["square", "circle", "triangle"]
+    },
+    "size": {
+      "value": {
+        "min": 50,
+        "max": 100
+      },
+      "animation": {
+        "enable": true,
+        "speed": 5,
+        "sync": false
+      }
+    }
+  }
+}
