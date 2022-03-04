@@ -166,17 +166,20 @@
       },
       particles: {
         color: {
-          value: ["#333333", "#777777"],
+          value: ["#222", "#333", "#072e07", "#300"],
         },
         number: {
           value: 200,
         },
         move: {
           enable: true,
-          speed: 3,
+          speed: 2,
         },
         opacity: {
-          value: 0.5,
+          value: 1,
+        },
+        shape: {
+          type: ["square", "circle", "triangle"],
         },
         size: {
           value: {
